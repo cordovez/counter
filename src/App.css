@@ -1,1 +1,89 @@
 /* Other rules */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px auto 20px;
+}
+.shift {
+  display: flex;
+  position: relative;
+  top: 0;
+}
+.shift:hover {
+  cursor: pointer;
+  top: 2px;
+}
+button {
+  display: flex;
+  font-size: 5em;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+#reset {
+  color: white;
+}
+.add {
+  padding: 10px;
+  height: 60px;
+  border-radius: 10px;
+  background: #5c47d3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2em;
+  color: white;
+}
+.reset {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  background: #5c47d3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2em;
+  color: white;
+}
+.value {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5em;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background: #5c47d3;
+  border-radius: 10px;
+  margin: auto 20px;
+}
+div #visible {
+  display: flex;
+}
+div #hidden {
+  display: none;
+}
+#hide {
+  display: none;
+}
+#display {
+  display: flex;
+}
+footer {
+  margin-top: 30px;
+}
+footer p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+footer span {
+  font-weight: bold;
+}
